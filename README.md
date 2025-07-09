@@ -16,7 +16,7 @@ This app randomly selects a quote from a predefined dictionary and displays it i
 
 ```bash
 git clone https://github.com/your-username/quote-display-app.git
-cd quote-display-app
+cd python_qoute_app
 ```
 
 ### 2. uv install
@@ -46,9 +46,8 @@ You can use Windows Task Scheduler to run the app automatically (e.g., every mor
 
 #### 2. Create a New Task
 
-- Click **"Create Basic Task..."** in the right-hand panel
+- Click **"Create Task..."** in the right-hand panel
 - Give your task a name like: `Daily Quote App`
-- Click **Next**
 
 #### 3. Choose Trigger
 
@@ -56,7 +55,8 @@ Choose when you want it to run:
 - Daily (e.g., every morning)
 - At log on (when you log into your computer)
 
-Click **Next** and set the time or condition.
+example of a trigger
+![alt text](<Screenshot 2025-07-09 105744.png>)
 
 #### 4. Choose Action: Start a Program
 
