@@ -64,3 +64,8 @@ example of a trigger
 
 1. Keep quotes motivational
 2. Remember to change your python interpretor to the uv environment to ensure script compiles 
+
+## 📃 License
+
+This project is licensed under the [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).  
+You are free to use, modify, and distribute it — just remember to give credit!
