@@ -1,6 +1,9 @@
 import tkinter as tk
 import random
-from quotes import quotes
+import json
+
+with open('quotes.json','r',encoding="utf-8") as q:
+    quotes = json.load(q)
 
 author, quote = random.choice(list(quotes.items()))
 
