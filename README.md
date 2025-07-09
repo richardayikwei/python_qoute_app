@@ -15,7 +15,7 @@ This app randomly selects a quote from a predefined dictionary and displays it i
 ### 1. **Fork and Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/quote-display-app.git
+git clone https://github.com/richardayikwei/python_qoute_app.git
 cd python_qoute_app
 ```
 
