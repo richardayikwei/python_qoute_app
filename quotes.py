@@ -15,4 +15,6 @@ quotes = {
    'Robert Green': "Channel your anger into something productive",
 
    'Robert Green': "Real planning is out in the world. You are thinking of the effect it will have on peoples psychology",
+
+   'Richard Ayikwei': "If i was going to die in the next ,second, hour, day or month would what i am experiencing or the event happening right now deserve my attention or reaction"
 }
