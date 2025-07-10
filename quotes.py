@@ -10,5 +10,9 @@ quotes = {
    "Richard Feynman" : "Richard Feynman was once asked by a Caltech faculty member to explain why spin one-half particles obey Fermi Dirac statistics. Rising to the challenge, he said, “I'll prepare a freshman lecture on it.” But a few days later he told the faculty member, “You know, I couldn't do it. I couldn't reduce it to the freshman level. That means we really don't understand it.",
    "Thomas Jefferson" : "When angry, count ten before you speak; if very angry, a hundred.",
 
-   "B.B. King" : "The beautiful thing about learning is that no one can take it away from you."
+   "B.B. King" : "The beautiful thing about learning is that no one can take it away from you.",
+
+   'Robert Green': "Channel your anger into something productive",
+
+   'Robert Green': "Real planning is out in the world. You are thinking of the effect it will have on peoples psychology",
 }
