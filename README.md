@@ -2,6 +2,10 @@
 
 A simple Python desktop app that displays a random inspirational quote in a window using the built-in `tkinter` GUI library.
 
+# Update
+
+Included an executable for definition subjects i want to remeber frequently
+
 ---
 
 ## 📂 About the Project
