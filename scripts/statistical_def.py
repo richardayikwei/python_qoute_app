@@ -27,5 +27,7 @@ definitions = {
 
    "Power of a Test" : "Probability of correctly rejecting a false null hypothesis (1 - Type II error). Tied to sample size, effect size, and significance level.",
 
-   "Prior, Likelihood, Posterior" : "Prior: Belief about a parameter before seeing data. Likelihood: How well data fits a parameter. Posterior: Updated belief after seeing data (via Bayes’ Theorem)."
+   "Prior, Likelihood, Posterior" : "Prior: Belief about a parameter before seeing data. Likelihood: How well data fits a parameter. Posterior: Updated belief after seeing data (via Bayes' Theorem).",
+
+   "Effect size" : "'How big is the effect?'Not just is there a difference, but how meaningful is it?"
 }
