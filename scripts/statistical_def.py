@@ -19,5 +19,13 @@ definitions = {
 
     "F-test / ANOVA / f_oneway" : "Tests whether means of multiple groups are different. Assumes normality and equal variances across groups.",
 
-    "ANCOVA" : "Analysis of Covariance: Combines ANOVA and regression. Tests group differences while controlling for covariates."
+    "ANCOVA" : "Analysis of Covariance: Combines ANOVA and regression. Tests group differences while controlling for covariates.",
+
+    "Confidence Interval (CI)" : "A range that likely contains the true population parameter. Often 95% CI → 'we're 95% confident the true value lies within this interval.'",
+
+    "Type I and Type II Errors" : "Type I error (False Positive): Rejecting a true null hypothesis. Type II error (False Negative): Failing to reject a false null hypothesis. Important for understanding p-values and statistical power.",
+
+   "Power of a Test" : "Probability of correctly rejecting a false null hypothesis (1 - Type II error). Tied to sample size, effect size, and significance level.",
+
+   "Prior, Likelihood, Posterior" : "Prior: Belief about a parameter before seeing data. Likelihood: How well data fits a parameter. Posterior: Updated belief after seeing data (via Bayes’ Theorem)."
 }
