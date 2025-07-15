@@ -1,37 +1,37 @@
-import tkinter as tk
+import flet as ft
 import random
 from statistical_def import definitions
 
-# Function to update quote
-def get_new_definition():
-    term, definition = random.choice(list(definitions.items()))
-    definition_label.config(text=f'"{definition}"')
-    term_label.config(text=f"- {term}")
+def main(page: ft.Page):
+    page.title = "Definition of the Day"
+    page.window_maximized = False     # disables full screen
+    page.window_width = 400
+    page.window_height = 250
+    page.window_resizable = False
+    page.window_always_on_top = True
+    page.window_center = True
 
-# Create window
-root = tk.Tk()
-root.attributes('-topmost', True) 
-root.title("Definition of the Day")
-root.geometry("400x200")
-root.resizable(False, False)
+    definition_text = ft.Text("", size=16, text_align=ft.TextAlign.CENTER, selectable=True)
+    term_text = ft.Text("", italic=True, size=12, text_align=ft.TextAlign.CENTER)
 
+    def get_new_definition(e=None):
+        term, definition = random.choice(list(definitions.items()))
+        definition_text.value = f'"{definition}"'
+        term_text.value = f"- {term}"
+        page.update()
 
-# Display definition
-definition_label = tk.Label(root, text="", wraplength=380, justify="center", font=("Segoe UI", 12))
-root.geometry("")  
-definition_label.pack(pady=20)
+    next_button = ft.ElevatedButton("Next Quote", on_click=get_new_definition)
 
-#button
-next_button = tk.Button(root, text="Next Quote", command=get_new_definition)
-next_button.pack()
+    page.add(
+        ft.Column(
+            [definition_text, term_text, next_button],
+            spacing=20,
+            scroll=ft.ScrollMode.AUTO,
+            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+        )
+    )
 
+    get_new_definition()
 
-# Display term
-term_label = tk.Label(root, text="", font=("Arial", 10, "italic"))
-term_label.pack()
-
-# Show the first quote
-get_new_definition()
-
-# Run the app
-root.mainloop()
+# Use desktop window mode
+ft.app(target=main, view=ft.FLET_APP)

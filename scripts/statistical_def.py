@@ -29,5 +29,7 @@ definitions = {
 
    "Prior, Likelihood, Posterior" : "Prior: Belief about a parameter before seeing data. Likelihood: How well data fits a parameter. Posterior: Updated belief after seeing data (via Bayes' Theorem).",
 
-   "Effect size" : "'How big is the effect?'Not just is there a difference, but how meaningful is it?"
+   "Effect size" : "'How big is the effect?'Not just is there a difference, but how meaningful is it?",
+   
+   "Inertia" : "How far samples are from their centroids"
 }

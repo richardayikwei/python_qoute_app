@@ -16,5 +16,13 @@ quotes = {
 
    'Robert Green': "Real planning is out in the world. You are thinking of the effect it will have on peoples psychology",
 
-   'Richard Ayikwei': "If i was going to die in the next ,second, hour, day or month would what i am experiencing or the event happening right now deserve my attention or reaction"
+   'Richard Ayikwei': "If i was going to die in the next ,second, hour, day or month would what i am experiencing or the event happening right now deserve my attention or reaction",
+
+   "Russell Ackoff" : 'Why," one of the experts asked a consultant, "didn"t they tell us this before we built the dam?" The consultant could have replied: "Because you didn"t ask the right questions. You incorrectly assumed you knew the answers." But he did not. Instead he asked the expert if he played the violin. The puzzled expert answered negatively. Then the consultant asked him what he would do if he were offered a Stradi varius. He said he would accept it. The consultant asked him why since hecould not play it. The expert got the point.',
+
+   "Mark Manson" : "There is a simple realization from which all personal improvement and growth emerges. This is the realization that we, individually, are responsible for everything in our lives, no matter the external circumstances.",
+
+   "Mark Manson" : "It's easier to sit in a painful certainty that nobody would find you attractive, that nobody appreciates your talents, than to actually test those beliefs and find out for sure",
+
+   "Manson's law " : " The more something threatens your identity, the more you will avoid it."
 }

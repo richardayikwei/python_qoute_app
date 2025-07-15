@@ -1,35 +1,43 @@
-import tkinter as tk
+import flet as ft
 import random
-from quotes import quotes
+from quotes import quotes  # quotes = {author: quote}
 
-# Function to update quote
-def get_new_quote():
-    author, quote = random.choice(list(quotes.items()))
-    quote_label.config(text=f'"{quote}"')
-    author_label.config(text=f"- {author}")
+def main(page: ft.Page):
+    # Window settings
+    page.title = "Quote of the Day"
+    page.window_width = 400
+    page.window_height = 600
+    page.window_maximized = False
+    page.window_resizable = False
+    page.window_always_on_top = True
+    page.window_center = True
 
-# Create window
-root = tk.Tk()
-root.attributes('-topmost', True) 
-root.title("Quote of the Day")
-root.geometry("400x200")
-root.resizable(False, False)
+    # UI Elements
+    quote_text = ft.Text("", size=16, text_align=ft.TextAlign.CENTER, selectable=True)
+    author_text = ft.Text("", italic=True, size=12, text_align=ft.TextAlign.CENTER)
 
-# Display quote
-quote_label = tk.Label(root, text="", wraplength=380, justify="center", font=("Segoe UI", 12))
-root.geometry("")  
-quote_label.pack(pady=20)
+    # Function to load a new quote
+    def get_new_quote(e=None):
+        author, quote = random.choice(list(quotes.items()))
+        quote_text.value = f'"{quote}"'
+        author_text.value = f"- {author}"
+        page.update()
 
-#button
-next_button = tk.Button(root, text="Next Quote", command=get_new_quote)
-next_button.pack()
+    # Button
+    next_button = ft.ElevatedButton("Next Quote", on_click=get_new_quote)
 
-# Display author
-author_label = tk.Label(root, text="", font=("Arial", 10, "italic"))
-author_label.pack()
+    # Layout
+    page.add(
+        ft.Column(
+            [quote_text, author_text, next_button],
+            spacing=20,
+            scroll=ft.ScrollMode.AUTO,
+            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+        )
+    )
 
-# Show the first quote
-get_new_quote()
+    # First quote
+    get_new_quote()
 
-# Run the app
-root.mainloop()
+# Launch in native desktop window mode
+ft.app(target=main, view=ft.FLET_APP)
