@@ -24,5 +24,28 @@ quotes = {
 
    "Mark Manson" : "It's easier to sit in a painful certainty that nobody would find you attractive, that nobody appreciates your talents, than to actually test those beliefs and find out for sure",
 
-   "Manson's law " : " The more something threatens your identity, the more you will avoid it."
+   "Manson's law " : " The more something threatens your identity, the more you will avoid it.",
+
+   'Kurt Matzler, Franz Bailom & Todd A. Mooradian' : "Intuition is not a magical sixth sense or a paranormal process; nor does it signify the opposite of reason or random and whimsical decision making. Rather, intuition is a highly complex and highly developed form of reasoning that is based on years of experience and learning, and on facts, patterns, concepts, procedures and abstractions stored in one's head.",
+
+   "Charles Duhigg" : "Change might not be fast and it isn't always easy. But with time and effort, almost any habit can be reshaped.",
+
+   "Jim Dethmer" : "When we place blame, we locate the cause and control of our lives outside ourselves. When we take responsibility, we locate the cause and control of our lives inside ourselves.",
+
+   "Robert B. Cialdini" : "Persuasion skills exert a far greater influence over others' behaviors than formal power structure do.",
+
+   "Angela Duckworth" : "Without effort, your talent is nothing more than your unmet potential. Without effort, your skill is nothing more than what you could have done but didn't. Talent — how fast we improve in skill — absolutely matters. But effort factors into the calculations twice, not once. Effort builds skill. At the very same time, effort makes skill productive.",
+
+   "Rod Judkins" : "Creativity isn't a switch that's flicked on or off; it's a way of seeing, engaging and responding to the world around you.",
+
+   "William James" : "Whenever you're in conflict with someone, there is one factor that can make the difference between damaging your relationship and deepening it. That factor is attitude.",
+
+   "Tony Dungy" : "Personal relationships are the fertile soil from which all advancement, all success, all achievement in real life grows.",
+
+   "Michael P. Nichols" : "Nothing hurts more than the sense that the people we care about aren't really listening. We never outgrow the need to have our feelings known.",
+
+   "Helio Fred Garcia" : "Words matter. Words shape worldviews. Words provoke action and reaction, which in turn provoke more words. Getting the words right is critically important. Getting the action right is also critically important. And aligning the words and actions is even more important.",
+
+   "David Schwartz" : "The size of your success is determined by the size of your belief."
+
 }
