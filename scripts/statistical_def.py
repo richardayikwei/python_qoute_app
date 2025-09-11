@@ -31,5 +31,7 @@ definitions = {
 
    "Effect size" : "'How big is the effect?'Not just is there a difference, but how meaningful is it?",
    
-   "Inertia" : "How far samples are from their centroids"
+   "Inertia" : "How far samples are from their centroids",
+
+   "F. Scott Fitzgerald" : "The test of a first-rate intelligence is the ability to hold two opposing ideas in mind at the same time and still retain the ability to function."
 }

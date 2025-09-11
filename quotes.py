@@ -46,6 +46,28 @@ quotes = {
 
    "Helio Fred Garcia" : "Words matter. Words shape worldviews. Words provoke action and reaction, which in turn provoke more words. Getting the words right is critically important. Getting the action right is also critically important. And aligning the words and actions is even more important.",
 
-   "David Schwartz" : "The size of your success is determined by the size of your belief."
+   "David Schwartz" : "The size of your success is determined by the size of your belief.",
+
+   "Richard Ayikwei" : "Not changing to protect pride keeps me stuck; changing makes me free.",
+
+   "Richard Ayikwei" : "They don't have to understand my change — I just have to live it.",
+
+   "Richard Ayikwei" : "I am worth something simply because I exist.",
+
+   "Richard Ayikwei" : "Not being where I hoped yet doesn't erase the ground I've already covered.",
+
+   "Richard Ayikwei" : "Not being where I hoped yet doesn't erase the ground I've already covered.",
+
+   "Richard Ayikwei" : "Choose better.",
+
+   "Richard Ayikwei" : "Choose better.",
+
+   "Richard Ayikwei" : "I can't control who chooses me.",
+
+   "Richard Ayikwei" : "My envy says more about what I want than about the other person.",
+
+   "Richard Ayikwei" : "My envy says more about what I want than about the other person.",
+
+   "Richard Ayikwei" : "I am not defined by your acknowledgement.",
 
 }
