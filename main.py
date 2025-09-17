@@ -5,8 +5,8 @@ from quotes import quotes  # quotes = {author: quote}
 def main(page: ft.Page):
     # Window settings
     page.title = "Quote of the Day"
-    page.window_width = 400
-    page.window_height = 600
+    page.window_width = 360
+    page.window_height = 240
     page.window_maximized = False
     page.window_resizable = False
     page.window_always_on_top = True
@@ -35,9 +35,9 @@ def main(page: ft.Page):
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
         )
     )
-
     # First quote
     get_new_quote()
+    print(page.window_width, page.window_height)
 
 # Launch in native desktop window mode
-ft.app(target=main, view=ft.FLET_APP)
+ft.app(target=main, view=ft.AppView.FLET_APP)
